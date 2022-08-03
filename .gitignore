@@ -15,12 +15,6 @@ website/node_modules
 *.backup
 ./*.tfstate
 .terraform/
-
-# Do not upload .tfvars
-!dev-vaiables.tfvars
-!prd-vaiables.tfvars
-
-*.tfvars
 *.auto.tfvars
 *.log
 *.bak
