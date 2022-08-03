@@ -64,3 +64,22 @@ terraform init -migrate-state
 
 
 
+# Git Commands
+
+-----Initial Checkin
+git init
+git add .
+git commit -m "Terraform azure example"
+git status
+git remote add origin <your-giturl.git>
+git push -u origin master
+
+
+------Add New files
+
+git pull
+
+git status
+git add .
+git commit -m "Changes from local"
+git push -u origin master
